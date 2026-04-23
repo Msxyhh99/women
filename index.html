@@ -89,9 +89,9 @@
 
 <body>
   <div>
-    <audio controls loop>
-      <!-- 自动播放、循环播放、静音 -->
-      <source src="muics/天若有情.MP3" type="audio/mp3">
+    <audio controls loop muted autoplay>
+      <!-- 修复：加./相对路径 + 全部小写后缀 + 正确文件名 -->
+      <source src="./muics/天若有情.mp3" type="audio/mp3">
       <p>您的浏览器不支持 audio 元素，请升级浏览器。</p>
     </audio>
   </div>
